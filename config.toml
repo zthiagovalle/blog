@@ -1,0 +1,60 @@
+baseURL = "https://example.com"
+languageCode = "pt-br"
+DefaultContentLanguage = "pt-br"
+title = "Website of Thiago Valle"
+
+
+[params]
+title = "Thiago H Valle"
+author = "Thiago Valle"
+description = "Full Stack Developer"
+profilePicture = "/images/profile.jpeg"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/zthiagovalle/"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://www.github.com/zthiagovalle"
+
+[[params.socialIcons]]
+icon = "fab fa-instagram"
+title = "Instagram"
+url = "http://www.instagram.com/zthiagovalle"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:zthiagovalle@hotmail.com"
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "Sobre"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+
+[module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
