@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
 languageCode = "pt-br"
 DefaultContentLanguage = "pt-br"
-title = "Website of Thiago Valle"
+title = "Blog para Devs"
 
 
 [params]
@@ -32,7 +32,6 @@ url = "mailto:zthiagovalle@hotmail.com"
 
 
 [menu]
-
   [[menu.main]]
   name = "Home"
   identifier = "home"
