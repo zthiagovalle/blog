@@ -7,8 +7,7 @@ Categories: []
 DisableComments: false
 ---
 
-## 
-Esse tutorial visa ensinar a instalar e rodar o .NET 7 no mac m1 utilizando o sistema macOS Ventura.
+# Esse tutorial visa ensinar a instalar e rodar o .NET 7 no mac m1 utilizando o sistema macOS Ventura.
 
 ## Download
 
